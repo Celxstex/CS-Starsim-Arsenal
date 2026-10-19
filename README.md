@@ -2,6 +2,8 @@
 
 ![Starsim Arsenal](.github/workshop/banner.png)
 
+**[Subscribe on the Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3823156089)**
+
 A redesigned ACE arsenal for Arma 3. It replaces the look of the ACE arsenal screen and keeps ACE's data underneath, so saved loadouts, shared loadouts and arsenal restrictions all work as before.
 
 > **Beta.** If something breaks, turn off **Use Starsim Arsenal** in the addon options to get the standard ACE arsenal back. No restart needed.
