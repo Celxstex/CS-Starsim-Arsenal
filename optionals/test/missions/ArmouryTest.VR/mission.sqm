@@ -4,7 +4,7 @@ addons[]={"A3_Characters_F"};
 randomSeed=1;
 class ScenarioData
 {
-	author="Armory";
+	author="Armoury";
 };
 class Mission
 {
