@@ -1,0 +1,14 @@
+name = "[CS] Starsim Arsenal"
+author = "Celxste"
+prefix = "arsenal"
+mainprefix = "z"
+
+[version]
+path = "addons/main/script_version.hpp"
+git_hash = 0
+
+[files]
+include = ["mod.cpp", "README.md"]
+
+[hemtt.release]
+folder = "CS_StarsimArsenal"

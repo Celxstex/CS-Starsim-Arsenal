@@ -1,0 +1,25 @@
+# Run with: hemtt launch
+[default]
+workshop = [
+    "450814997",  # CBA_A3
+    "463939057",  # ACE3
+    "2522638637", # ACE3 Arsenal Extended - Core
+    "2058554822", # 3AS (Beta Test)             - 60th Aux dependency
+    "2162749089", # Legion Studios Core - Stable - 60th Aux dependency
+    "2939850574", # Indecisive Armoury - Star Wars (IDA:SW) - 60th Aux dependency
+    "1940589429", # Just Like The Simulations - The Great War - 60th Aux dependency
+    "3809966436", # 60th Solar Detachment Aux Mod
+    "3388121219", # Wolfpack Studios Core
+]
+
+# Automated UI walk-through: hemtt launch test
+[test]
+extends = "default"
+optionals = ["test"]
+parameters = [
+    "-skipIntro",
+    "-noSplash",
+    "-showScriptErrors",
+    "-window",
+    '-init=playMission["","\z\arsenal\addons\test\missions\ArmoryTest.VR"]',
+]
